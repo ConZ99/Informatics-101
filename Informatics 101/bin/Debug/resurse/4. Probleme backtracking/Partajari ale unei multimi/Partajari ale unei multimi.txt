@@ -1,0 +1,53 @@
+#include <iostream>
+#include <windows.h>
+#include <stdlib.h>
+using namespace std;
+int sol[100], n, i, j, maxi[10], maxim;
+void tipar ()
+{
+    maxim=1;
+    for(i=2; i<=n; i++)
+        if(maxim < sol[i])
+            maxim=sol[i];
+    cout<< "Partitie: "<< endl;
+    for (i=1; i<=maxim; i++)
+    {
+        for(j=1; j<=n; j++)
+            if(sol[j]==i)
+                cout<< j<<" ";
+        cout<< endl;
+
+    }
+
+}
+void back (int k)
+{
+    int i, j, maxprec;
+    if(k==n+1)
+        tipar();
+    else
+    {
+        maxprec=0;
+        for (j=1; j<k; j++)
+            if(maxprec<sol[j])
+                maxprec=sol[j];
+        for (i=1; i<=maxprec+1; i++)
+        {
+            sol[k]=i;
+            maxi[k]=sol[k];
+            back(k+1);
+        }
+    }
+}
+
+int main()
+{
+    system("COLOR F0");
+    cout<< "Vreau partitiile multimii de la 1 la: "; cin>> n;
+    cout<<endl;
+    cout<< "Partitiile multimii de la 1 la "<< n <<" sunt:"<< endl<< endl;
+    back (1);
+    cout<< endl;
+    system("pause");
+    return 0;
+}

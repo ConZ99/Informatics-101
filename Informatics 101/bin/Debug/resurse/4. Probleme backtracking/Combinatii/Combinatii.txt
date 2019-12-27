@@ -1,0 +1,62 @@
+#include <iostream>
+#include <stdlib.h>
+#include <windows.h>
+using namespace std;
+
+int n, p, sol[10];
+
+void init(int k)
+{
+    sol[k]=0;
+}
+int succesor(int k)
+{
+    if(sol[k]<n)
+    {
+        sol[k]++;
+        return 1;
+    }
+    else return 0;
+}
+int valid(int k)
+{
+    int i;
+    for(i=1; i<k; i++)
+        if(sol[k]<=sol[i])
+            return 0;
+    return 1;
+}
+int solutie(int k)
+{
+    return k==p+1;
+}
+void tipar()
+{
+    for(int i=1; i<=p; i++)
+        cout<<sol[i]<<" ";
+    cout<<endl;
+}
+void back(int k)
+{
+    if (solutie(k)) tipar();
+    else
+    {
+        init(k);
+        while(succesor(k))
+            if(valid(k))
+                back(k+1);
+    }
+}
+int main()
+{
+    system("COLOR F0");
+    cout<<"Combinatii de: ";
+    cin>>n;
+    cout<<"Luate de: ";
+    cin>>p;
+    cout<< endl;
+    cout<< "Combinatiile numerelor "<<n<<" luate de "<<p<<" sunt: "<< endl;
+    back(1);
+    system("PAUSE");
+    return 0;
+}

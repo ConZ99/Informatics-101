@@ -1,0 +1,29 @@
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\bin\Debug\Informatics 101.exe.config
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\bin\Debug\Informatics 101.exe
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\bin\Debug\Informatics 101.pdb
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\bin\Debug\Informatics 101.xml
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\obj\Debug\Informatics 101.vbprojResolveAssemblyReference.cache
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\obj\Debug\Informatics_101.MainScreen.resources
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\obj\Debug\Informatics_101.Resources.resources
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\obj\Debug\Informatics 101.vbproj.GenerateResource.Cache
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\obj\Debug\Informatics 101.exe
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\obj\Debug\Informatics 101.xml
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\obj\Debug\Informatics 101.pdb
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\obj\Debug\Informatics_101.frmBack.resources
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\obj\Debug\Informatics_101.frmAlg.resources
+C:\Users\Stefan\Desktop\Informatics 101\Informatics 101\Informatics 101\obj\Debug\Informatics_101.frmRec.resources
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\obj\Debug\Informatics 101.vbprojAssemblyReference.cache
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\obj\Debug\Informatics_101.frmBack.resources
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\obj\Debug\Informatics_101.frmAlg.resources
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\obj\Debug\Informatics_101.frmSub.resources
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\obj\Debug\Informatics_101.frmRec.resources
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\obj\Debug\Informatics_101.MainScreen.resources
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\obj\Debug\Informatics_101.Resources.resources
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\obj\Debug\Informatics 101.vbproj.GenerateResource.cache
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\obj\Debug\Informatics 101.exe
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\obj\Debug\Informatics 101.xml
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\obj\Debug\Informatics 101.pdb
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\bin\Debug\Informatics 101.exe.config
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\bin\Debug\Informatics 101.exe
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\bin\Debug\Informatics 101.pdb
+C:\Users\stefa\Desktop\Informatics 101\Informatics 101\bin\Debug\Informatics 101.xml

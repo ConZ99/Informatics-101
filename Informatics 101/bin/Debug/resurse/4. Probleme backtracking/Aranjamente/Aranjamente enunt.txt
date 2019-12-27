@@ -1,0 +1,1 @@
+1. Fie multimea A={1, 2, 3 ... n}. Se cere sa se afiseze toate aranjamentele posibile de la 1 la numarul n.

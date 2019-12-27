@@ -1,0 +1,42 @@
+#include <iostream>
+#include <stdlib.h>
+#include <windows.h>
+using namespace std;
+int sol[100], n, a[100], s, i, suma;
+void back (int k)
+{
+    if(s==suma)
+    {
+        cout<< "Solutie: "<<endl;
+        for(i=1; i<k; i++)
+            if(sol[i])
+                cout<< sol[i]<<" monede de "<<a[i]<<endl;
+        cout<< endl;
+    }
+    else
+    {
+        sol[k]=-1;
+        while(sol[k]*a[k]+s<suma && k<n+1)
+        {
+            sol[k]++;
+            s+=sol[k]*a[k];
+            back(k+1);
+            s-=sol[k]*a[k];
+        }
+    }
+}
+int main()
+{
+    system("COLOR F0");
+    cout<< "Suma= "; cin>> suma;
+    cout<< "n= "; cin>> n;
+    for(i=1; i<=n; i++)
+    {
+        cout<< "a["<<i<<"]= ";
+        cin>>a[i];
+    }
+    cout<< endl;
+    back(1);
+    system("PAUSE");
+    return 0;
+}
